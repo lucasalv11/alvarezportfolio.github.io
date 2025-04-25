@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ALVAREZ Lucas</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#competences">competences</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="profil.png" alt="Photo de profil">
+        <p>Lucas Alvarez élève de seconde au lycée Perre Mendes France à Veynes. Dans la section CIEL</p>
+    </section>
+    
+    <section id="projects">
+        <div class="grid-container">
+            <div class="project">stage d'observation dans une fromagerie
+                <img src="fromagerie.jpg" alt="Photo de profil">
+            </div>
+            <div class="project">stage de 3 semaines au service technique de l'hopitale de Gap
+                <img src="téléchargement.jpg" alt="Photo de profil">
+            </div>
+    </section>
+    <h2>competences</h2>
+    <section id="competences">
+        <div class="grid-container">
+            <div class="skill">html/css
+                <img src="logohtml.png" width="10%">
+                <img src="logocss.png" width="7%">
+            </div>
+            <div class="skill">hardware
+                <img src="hardwarelogo.png" width="10%">
+            </div>
+            <div class="skill">batch/bash
+                <img src="batch.png" width="10%">
+                <img src="bash.png" width="10%">
+            </div>
+        </div>
+    </section>
+    <section id="modelisation">
+        <div class="troisd">modélisation 3D
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/7M1MDLR2KZYPkdmV/scene.splinecode"></spline-viewer>
+        </div>
+    </section>
+    <section id="contact">
+        <form>
+            <input type="text" placeholder="ALVAREZ Lucas">
+            <input type="email" placeholder="alvarez.lucas@lpmendesfrance.com">
+            <textarea placeholder="..."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 ALVAREZ Lucas</p>
+    </footer>
+</body>
+</html>
